@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Verifica a Velocidade</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Velocidade</title>
 </head>
 <body>
+    <img src = "img/exerc.jpg" alt="Exercícios">
     <h1>Programa Verifica a Velocidade</h1>
     <form>
         <p>Velocidade Permitida:
-            <input type="text" id="InNome" required>
+            <input type="number" id="InPermitida" min="5" step="1" required>
             </p>
             <p>Velocidade do Condutor:
-                <input type="text" id="InNome" required>
+                <input type="number" id="InCondutor" min="5" step="1" required>
              </p>
                 <input type="submit" value="Verifica Velocidade">
-                
+            </form>
+            <h3></h3>
+            <script src="velocidade.js"></script>
+</body>
+</html>    
