@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triângulo</title>
+    <link rel="stylesheet" href="css/tri.css">
+    <title>Lados de um Triangulo</title>
 </head>
 <body>
-    <h1> Programa Lados de um Triângulo </h1>
-    <P> Lado A:
-        <input type="text" name="" id="inNome">
-    </P>
-    <P> Lado B:
-        <input type="text" name="" id="inNome">
-    </P>
-    <P> Lado C:
-        <input type="text" name="" id="inNome">
-    </P>
-        <input type="submit" value="Verifica Lados">
+    <img src="img/exerc.jpg" >
+    <h1>Programa Lados de um Triangulo</h1>
+    <form >
+        <p>Lado A
+            <input type="number" id="inLadoA" min="1" step="1" required>
+        </p>
+        <p>Lado B
+            <input type="number" id="inLadoB" min="1" step="1" required>
+        </p>
+        <p>Lado C
+            <input type="number" id="inLadoC" min="1" step="1" required>
+        </p>
+
+        <input type="submit" id="inVRlados" value="Verificar Lados">
     </form>
-    <h3></h3>
-    <script src="triangulo.js"></script>
+<h3></h3>
+<script src="tri.js"></script>
+</body>
+</html>
