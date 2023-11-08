@@ -15,6 +15,7 @@ frm.addEventListener("submit", (e) =>{
         resultado = pessoas * 20
      }
 
+
      resp.innerText = `Nº de pessoas: ${pessoas}\n
                        Nº de peixes: ${peixe}\n
                        Pagar: R$ ${resultado.toFixed(2)}`
