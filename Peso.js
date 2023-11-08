@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
         peso = 21 * Math.pow(altura, 2)
      }
      //apresenta a resposta
-     resp.innertext = `${nome} seu peso ideal é: ${peso.toFixed(3)}kg`
+     resp.innerText = `${nome} seu peso ideal é: ${peso.toFixed(3)}kg`
 })
 
 //segunda ouvinte. limpa o conteúdo de h3
